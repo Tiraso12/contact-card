@@ -2,9 +2,9 @@
   "name": "contact-cards",
   "version": "1.0.0",
   "description": "",
-  "private": true,
+  "main": "index.js",
   "scripts": {
-    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
+    "start:dev": "concurrently \"cd server && npm run server\"  \"cd client && npm run build\"",
     "start": "npm run build && cd server && node server.js",
     "server": "cd server node server.js --ignore client",
     "build": "cd client && npm run build",
@@ -15,10 +15,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^7.0.0",
-    "idb": "^7.1.0"
+    "concurrently": "^7.0.0"
   },
   "engines": {
-    "node": "17.x"
+    "node": "16.x"
   }
 }
