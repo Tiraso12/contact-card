@@ -9,6 +9,7 @@ const toggleForm = () => {
   }
 }
 
+
 const newContactButton = document.getElementById("new-contact");
 
 newContactButton.addEventListener('click', event => {
