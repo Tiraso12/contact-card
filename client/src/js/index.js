@@ -1,10 +1,13 @@
 import "./form";
+import "./submit";
+
+import "../css/index.css";
+
 import { Tooltip, Toast, Popover } from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { initDb, getDb, postDb } from './database';
-import { fetchCards } from "./cards";
 
-import Logo from '../images/logo.png';
+
+import Logo from '../images/logo.jpg';
 import Bear from '../images/bear.png';
 import Dog from '../images/dog.png';
 
